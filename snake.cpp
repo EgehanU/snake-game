@@ -213,7 +213,7 @@ bool hasEatenFood() {
 void exitGame() {
     system("cls");
     if (snake.size() < 20)
-        std::cout << "\nGame over beta cuck! Your score: " << snake.size() << std::endl;
+        std::cout << "\nGame over! Your score: " << snake.size() << std::endl;
     else if (snake.size() >= 20)
         std::cout << "Game over champ! Your score: " << snake.size() << std::endl;
 }
